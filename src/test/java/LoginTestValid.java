@@ -16,7 +16,7 @@ public class LoginTestValid {
 		//System.out.println(driver.getTitle());
 		driver.findElement(By.xpath("//span[@class='header-icon-link user-profile-icon']")).click();
 		driver.findElement(By.xpath("//a[@class='login-link authentication_popup']")).click();
-		driver.findElement(By.xpath("//input[@class='email required input_authentication']")).sendKeys("alamzishan709@gmail.com");
+		driver.findElement(By.xpath("//input[@class='email required input_authentication']")).sendKeys("");
 		driver.findElement(By.xpath("//input[@class='required input_authentication']")).sendKeys("Urbanlader@1");
 		driver.findElement(By.xpath("//input[@value='Log In']")).click();
 		
