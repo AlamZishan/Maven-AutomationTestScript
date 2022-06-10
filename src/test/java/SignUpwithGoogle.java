@@ -20,7 +20,7 @@ public class SignUpwithGoogle {
 	driver.findElement(By.xpath("//a[@class='signup-link authentication_popup']")).click();
 
 	driver.findElement(By.xpath("//a[@id='google_login']")).click();
-	driver.findElement(By.xpath("(//input[@class='whsOnd zHQkBf'])[1]")).sendKeys("alamzishan709@gmail.com");
+	driver.findElement(By.xpath("(//input[@class='whsOnd zHQkBf'])[1]")).sendKeys("");
 	driver.findElement(By.xpath("(//span[@class='VfPpkd-vQzf8d'])[2]")).click();
 	
 		
